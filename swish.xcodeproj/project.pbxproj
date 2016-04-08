@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75E5913DAD0CF3864498CE49 /* Pods_swish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301F4AAD775A53A81A06FFED /* Pods_swish.framework */; };
+		CDAFD8F21CB67BF500C9B00F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD8F11CB67BF500C9B00F /* AppDelegate.swift */; };
+		CDAFD8F41CB67BF500C9B00F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD8F31CB67BF500C9B00F /* ViewController.swift */; };
+		CDAFD8F71CB67BF500C9B00F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAFD8F51CB67BF500C9B00F /* Main.storyboard */; };
+		CDAFD8F91CB67BF500C9B00F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAFD8F81CB67BF500C9B00F /* Assets.xcassets */; };
+		CDAFD8FC1CB67BF500C9B00F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAFD8FA1CB67BF500C9B00F /* LaunchScreen.storyboard */; };
+		CDAFD9071CB67BF500C9B00F /* swishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD9061CB67BF500C9B00F /* swishTests.swift */; };
+		CDAFD9121CB67BF500C9B00F /* swishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFD9111CB67BF500C9B00F /* swishUITests.swift */; };
+		CDD572501CB7740F0035DDA1 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD572431CB773E80035DDA1 /* SQLite.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDAFD9031CB67BF500C9B00F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAFD8E61CB67BF500C9B00F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAFD8ED1CB67BF500C9B00F;
+			remoteInfo = swish;
+		};
+		CDAFD90E1CB67BF500C9B00F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAFD8E61CB67BF500C9B00F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAFD8ED1CB67BF500C9B00F;
+			remoteInfo = swish;
+		};
+		CDD572421CB773E80035DDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD572381CB773E80035DDA1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		CDD572441CB773E80035DDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD572381CB773E80035DDA1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		CDD572461CB773E80035DDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD572381CB773E80035DDA1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		CDD572481CB773E80035DDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD572381CB773E80035DDA1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		CDD5724A1CB773E80035DDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD572381CB773E80035DDA1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		CDD5724C1CB773E80035DDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD572381CB773E80035DDA1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		CDD5724E1CB773E80035DDA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD572381CB773E80035DDA1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03333DBD329F718F4EF596F5 /* Pods-swish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swish/Pods-swish.debug.xcconfig"; sourceTree = "<group>"; };
+		301F4AAD775A53A81A06FFED /* Pods_swish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAFD8EE1CB67BF500C9B00F /* swish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAFD8F11CB67BF500C9B00F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDAFD8F31CB67BF500C9B00F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDAFD8F61CB67BF500C9B00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDAFD8F81CB67BF500C9B00F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDAFD8FB1CB67BF500C9B00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDAFD8FD1CB67BF500C9B00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAFD9021CB67BF500C9B00F /* swishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAFD9061CB67BF500C9B00F /* swishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swishTests.swift; sourceTree = "<group>"; };
+		CDAFD9081CB67BF500C9B00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAFD90D1CB67BF500C9B00F /* swishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAFD9111CB67BF500C9B00F /* swishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swishUITests.swift; sourceTree = "<group>"; };
+		CDAFD9131CB67BF500C9B00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD572381CB773E80035DDA1 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		DC2FB697C3DDFCDE4AE848AD /* Pods-swish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swish.release.xcconfig"; path = "Pods/Target Support Files/Pods-swish/Pods-swish.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDAFD8EB1CB67BF500C9B00F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD572501CB7740F0035DDA1 /* SQLite.framework in Frameworks */,
+				75E5913DAD0CF3864498CE49 /* Pods_swish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAFD8FF1CB67BF500C9B00F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAFD90A1CB67BF500C9B00F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		402CDD50195E24D8AB6F1B01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				301F4AAD775A53A81A06FFED /* Pods_swish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EE164D155520E279358BE21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03333DBD329F718F4EF596F5 /* Pods-swish.debug.xcconfig */,
+				DC2FB697C3DDFCDE4AE848AD /* Pods-swish.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDAFD8E51CB67BF500C9B00F = {
+			isa = PBXGroup;
+			children = (
+				CDAFD8F01CB67BF500C9B00F /* swish */,
+				CDAFD9051CB67BF500C9B00F /* swishTests */,
+				CDAFD9101CB67BF500C9B00F /* swishUITests */,
+				CDAFD8EF1CB67BF500C9B00F /* Products */,
+				CDD572381CB773E80035DDA1 /* SQLite.xcodeproj */,
+				6EE164D155520E279358BE21 /* Pods */,
+				402CDD50195E24D8AB6F1B01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDAFD8EF1CB67BF500C9B00F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDAFD8EE1CB67BF500C9B00F /* swish.app */,
+				CDAFD9021CB67BF500C9B00F /* swishTests.xctest */,
+				CDAFD90D1CB67BF500C9B00F /* swishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDAFD8F01CB67BF500C9B00F /* swish */ = {
+			isa = PBXGroup;
+			children = (
+				CDAFD8F11CB67BF500C9B00F /* AppDelegate.swift */,
+				CDAFD8F31CB67BF500C9B00F /* ViewController.swift */,
+				CDAFD8F51CB67BF500C9B00F /* Main.storyboard */,
+				CDAFD8F81CB67BF500C9B00F /* Assets.xcassets */,
+				CDAFD8FA1CB67BF500C9B00F /* LaunchScreen.storyboard */,
+				CDAFD8FD1CB67BF500C9B00F /* Info.plist */,
+			);
+			path = swish;
+			sourceTree = "<group>";
+		};
+		CDAFD9051CB67BF500C9B00F /* swishTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDAFD9061CB67BF500C9B00F /* swishTests.swift */,
+				CDAFD9081CB67BF500C9B00F /* Info.plist */,
+			);
+			path = swishTests;
+			sourceTree = "<group>";
+		};
+		CDAFD9101CB67BF500C9B00F /* swishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDAFD9111CB67BF500C9B00F /* swishUITests.swift */,
+				CDAFD9131CB67BF500C9B00F /* Info.plist */,
+			);
+			path = swishUITests;
+			sourceTree = "<group>";
+		};
+		CDD572391CB773E80035DDA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDD572431CB773E80035DDA1 /* SQLite.framework */,
+				CDD572451CB773E80035DDA1 /* SQLiteTests iOS.xctest */,
+				CDD572471CB773E80035DDA1 /* SQLite.framework */,
+				CDD572491CB773E80035DDA1 /* SQLiteTests Mac.xctest */,
+				CDD5724B1CB773E80035DDA1 /* SQLite.framework */,
+				CDD5724D1CB773E80035DDA1 /* SQLiteTests tvOS.xctest */,
+				CDD5724F1CB773E80035DDA1 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDAFD8ED1CB67BF500C9B00F /* swish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAFD9161CB67BF500C9B00F /* Build configuration list for PBXNativeTarget "swish" */;
+			buildPhases = (
+				31E22D6FAC063D39743B8CF7 /* 📦 Check Pods Manifest.lock */,
+				CDAFD8EA1CB67BF500C9B00F /* Sources */,
+				CDAFD8EB1CB67BF500C9B00F /* Frameworks */,
+				CDAFD8EC1CB67BF500C9B00F /* Resources */,
+				03BF4FDC7CD5C7129568DCB8 /* 📦 Embed Pods Frameworks */,
+				DB1158CDD94FCBC1747BC9E2 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swish;
+			productName = swish;
+			productReference = CDAFD8EE1CB67BF500C9B00F /* swish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDAFD9011CB67BF500C9B00F /* swishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAFD9191CB67BF500C9B00F /* Build configuration list for PBXNativeTarget "swishTests" */;
+			buildPhases = (
+				CDAFD8FE1CB67BF500C9B00F /* Sources */,
+				CDAFD8FF1CB67BF500C9B00F /* Frameworks */,
+				CDAFD9001CB67BF500C9B00F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAFD9041CB67BF500C9B00F /* PBXTargetDependency */,
+			);
+			name = swishTests;
+			productName = swishTests;
+			productReference = CDAFD9021CB67BF500C9B00F /* swishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDAFD90C1CB67BF500C9B00F /* swishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAFD91C1CB67BF500C9B00F /* Build configuration list for PBXNativeTarget "swishUITests" */;
+			buildPhases = (
+				CDAFD9091CB67BF500C9B00F /* Sources */,
+				CDAFD90A1CB67BF500C9B00F /* Frameworks */,
+				CDAFD90B1CB67BF500C9B00F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAFD90F1CB67BF500C9B00F /* PBXTargetDependency */,
+			);
+			name = swishUITests;
+			productName = swishUITests;
+			productReference = CDAFD90D1CB67BF500C9B00F /* swishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDAFD8E61CB67BF500C9B00F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rexcao.net;
+				TargetAttributes = {
+					CDAFD8ED1CB67BF500C9B00F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CDAFD9011CB67BF500C9B00F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CDAFD8ED1CB67BF500C9B00F;
+					};
+					CDAFD90C1CB67BF500C9B00F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CDAFD8ED1CB67BF500C9B00F;
+					};
+				};
+			};
+			buildConfigurationList = CDAFD8E91CB67BF500C9B00F /* Build configuration list for PBXProject "swish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDAFD8E51CB67BF500C9B00F;
+			productRefGroup = CDAFD8EF1CB67BF500C9B00F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CDD572391CB773E80035DDA1 /* Products */;
+					ProjectRef = CDD572381CB773E80035DDA1 /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CDAFD8ED1CB67BF500C9B00F /* swish */,
+				CDAFD9011CB67BF500C9B00F /* swishTests */,
+				CDAFD90C1CB67BF500C9B00F /* swishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CDD572431CB773E80035DDA1 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = CDD572421CB773E80035DDA1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CDD572451CB773E80035DDA1 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = CDD572441CB773E80035DDA1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CDD572471CB773E80035DDA1 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = CDD572461CB773E80035DDA1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CDD572491CB773E80035DDA1 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = CDD572481CB773E80035DDA1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CDD5724B1CB773E80035DDA1 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = CDD5724A1CB773E80035DDA1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CDD5724D1CB773E80035DDA1 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = CDD5724C1CB773E80035DDA1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CDD5724F1CB773E80035DDA1 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = CDD5724E1CB773E80035DDA1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDAFD8EC1CB67BF500C9B00F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAFD8FC1CB67BF500C9B00F /* LaunchScreen.storyboard in Resources */,
+				CDAFD8F91CB67BF500C9B00F /* Assets.xcassets in Resources */,
+				CDAFD8F71CB67BF500C9B00F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAFD9001CB67BF500C9B00F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAFD90B1CB67BF500C9B00F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03BF4FDC7CD5C7129568DCB8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swish/Pods-swish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31E22D6FAC063D39743B8CF7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB1158CDD94FCBC1747BC9E2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swish/Pods-swish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDAFD8EA1CB67BF500C9B00F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAFD8F41CB67BF500C9B00F /* ViewController.swift in Sources */,
+				CDAFD8F21CB67BF500C9B00F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAFD8FE1CB67BF500C9B00F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAFD9071CB67BF500C9B00F /* swishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAFD9091CB67BF500C9B00F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAFD9121CB67BF500C9B00F /* swishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDAFD9041CB67BF500C9B00F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAFD8ED1CB67BF500C9B00F /* swish */;
+			targetProxy = CDAFD9031CB67BF500C9B00F /* PBXContainerItemProxy */;
+		};
+		CDAFD90F1CB67BF500C9B00F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAFD8ED1CB67BF500C9B00F /* swish */;
+			targetProxy = CDAFD90E1CB67BF500C9B00F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDAFD8F51CB67BF500C9B00F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAFD8F61CB67BF500C9B00F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDAFD8FA1CB67BF500C9B00F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAFD8FB1CB67BF500C9B00F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDAFD9141CB67BF500C9B00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDAFD9151CB67BF500C9B00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDAFD9171CB67BF500C9B00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03333DBD329F718F4EF596F5 /* Pods-swish.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.rexcao.swish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDAFD9181CB67BF500C9B00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2FB697C3DDFCDE4AE848AD /* Pods-swish.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.rexcao.swish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDAFD91A1CB67BF500C9B00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = swishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.rexcao.swishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swish.app/swish";
+			};
+			name = Debug;
+		};
+		CDAFD91B1CB67BF500C9B00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = swishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.rexcao.swishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swish.app/swish";
+			};
+			name = Release;
+		};
+		CDAFD91D1CB67BF500C9B00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = swishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.rexcao.swishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = swish;
+			};
+			name = Debug;
+		};
+		CDAFD91E1CB67BF500C9B00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = swishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.rexcao.swishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = swish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDAFD8E91CB67BF500C9B00F /* Build configuration list for PBXProject "swish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAFD9141CB67BF500C9B00F /* Debug */,
+				CDAFD9151CB67BF500C9B00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAFD9161CB67BF500C9B00F /* Build configuration list for PBXNativeTarget "swish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAFD9171CB67BF500C9B00F /* Debug */,
+				CDAFD9181CB67BF500C9B00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAFD9191CB67BF500C9B00F /* Build configuration list for PBXNativeTarget "swishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAFD91A1CB67BF500C9B00F /* Debug */,
+				CDAFD91B1CB67BF500C9B00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAFD91C1CB67BF500C9B00F /* Build configuration list for PBXNativeTarget "swishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAFD91D1CB67BF500C9B00F /* Debug */,
+				CDAFD91E1CB67BF500C9B00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDAFD8E61CB67BF500C9B00F /* Project object */;
+}
